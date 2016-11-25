@@ -39,3 +39,18 @@ describe "'About us' page" do
   end
 end
 
+describe "'Contact' page" do
+  it "should have content 'About the company'" do
+  	visit '/static_pages/contact'
+  	page.should have_content('CONTACT')
+  end
+
+  it "should have the correct title" do
+  	visit '/static_pages/contact'
+  	page.source.should have_selector('title',
+  		:text => "Contact")
+  end
+end
+
+
+

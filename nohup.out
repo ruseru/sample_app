@@ -1856,3 +1856,522 @@ Please upgrade to Ruby 2.0.0 or greater as soon as possible.
 [2016-11-25 17:57:46] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
 [2016-11-25 17:57:46] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
 [2016-11-25 17:57:46] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:41] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+=> Booting WEBrick
+=> Rails 3.2.3 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-11-25 17:51:23 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:51:24 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:51:24 +0200
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:24 +0200
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:24 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:24 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:51:39 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:45 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:57:46 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:42] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 17:58:43] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:21] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:22] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:07:25] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:54] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-25 18:10:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:12] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:14] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:14] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:42 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 17:58:43 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:21 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:22 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 18:07:25 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:54 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-11-25 18:10:55 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2016-11-28 18:19:12 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 261ms (Views: 253.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-11-28 18:19:13 +0200
+Served asset /application.css - 304 Not Modified (122ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-11-28 18:19:14 +0200
+Served asset /static_pages.css - 304 Not Modified (87ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-11-28 18:19:14 +0200
+Served asset /static_pages.js - 304 Not Modified (4ms)
+[2016-11-28 18:19:14] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:14] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:14] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:14] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+[2016-11-28 18:19:19] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true

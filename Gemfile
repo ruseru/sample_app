@@ -6,7 +6,7 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-	gem 'sqlite3', '1.3.5'
+	gem 'pg', '~> 0.15.0'
 	gem 'rspec-rails', '2.9.0'
 end
 
@@ -29,9 +29,6 @@ group :test do
 	gem 'capybara', '1.1.2'
 end
 
-group :production do
-	gem 'pg', '~> 0.15.0'
-end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

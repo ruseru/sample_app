@@ -13,4 +13,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-nohup.out
+
+*.swp
+* ~
+.project
+.DS_Store
+.out
